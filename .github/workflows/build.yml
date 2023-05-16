@@ -25,7 +25,7 @@ jobs:
       run: |
         set -ex
 
-        DOWNLOADURL=https://github.com/redis/redis/archive/6.2.5/redis-6.2.5.tar.gz
+        DOWNLOADURL=https://github.com/redis/redis/archive/5.0.14/redis-5.0.14.tar.gz
         curl -L ${DOWNLOADURL} | tar xz --strip-components=1
 
         set +ex
